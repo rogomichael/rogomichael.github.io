@@ -4,9 +4,26 @@ body{
 font-family: calibri;
 	top: 20px;
 	margin: auto;
-	background:url('./images/heidelberg.jpg')no-repeat;
   }
   
+  .container {
+	width: 100vw; /* Set width to full viewport width */
+	height: 100px; /* Set height to full viewport height */
+	background-image: url('../heidelberg.jpg');
+	background-repeat: repeat; /* or repeat-x, repeat-y, no-repeat */
+	background-size: 100% auto; /* Cover entire width, maintain aspect ratio */
+	margin-bottom: 50px;
+  }
+.title-text a{
+text-decoration: none;
+/*color: #fff;*/
+margin: auto;
+font-size: 30px;
+}
+.title-text:hover {
+	background-color: #f0f0f0;
+  }
+
 ul{
 	list-style-type: none;
 }
@@ -40,7 +57,7 @@ text-decoration: underline;
 .main-cf{
 width: 1180px;
 margin: auto;
-margin-top: 140px;
+margin-top: 40px;
 /*margin-left: 120px;*/
 }
 /*TOPCONTENT
@@ -240,6 +257,7 @@ margin-left: -40px;
 footer{
 text-align: center;
 margin: 30px;
+margin-bottom: 60px;
 }
 footer a{
 padding: 10px;

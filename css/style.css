@@ -1,0 +1,17 @@
+/*.container {
+    width: 400px; 
+    height: 100px; 
+    background-image: url("../heidelberg.jpg"); 
+    background-repeat: repeat-y; 
+}
+*/
+    .container {
+        margin-top: 20px;
+        width: 100vw; /* Set width to full viewport width */
+        height: 100px; /* Set height to full viewport height */
+        background-image: url('../heidelberg.jpg');
+        background-repeat: repeat; /* or repeat-x, repeat-y, no-repeat */
+        background-size: 100% auto; /* Cover entire width, maintain aspect ratio */
+      }
+      
+  
