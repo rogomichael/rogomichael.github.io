@@ -1,0 +1,341 @@
+/*BODY STYLE
+====================================*/
+body{
+font-family: calibri;
+	top: 20px;
+	margin: auto;
+	background:url('./images/editmitishamba1.png')no-repeat;
+  }
+  
+ul{
+	list-style-type: none;
+}
+ul li{
+text-align: left;
+}
+a {
+text-decoration: none;
+}
+a:hover{
+text-decoration: underline;
+}
+
+/*CYCLER
+===================================*/
+#cycler {position: relative;}
+#cycler img{position:absolute; z-index:1; margin-left: auto; margin-right: auto;}
+#cycler img.active{z-index:3}
+
+/*CLEAR FLOATS
+===================================*/
+.cf:before,
+.cf:after{
+	content: " ";
+	display: table;
+}
+.cf:after{
+	clear: both;
+}
+.cf{
+	*zoom: 1; /*for IE6 and IE7*/
+}
+
+/*WHOLE PAGE
+==================================*/
+.main{
+width: 1180px;
+margin: auto;
+margin-top: 140px;
+}
+/*TOPCONTENT
+==================================*/
+#topcontent{
+width: 1180px;
+float: left;
+/*background: green;
+border: 2px solid red;*/
+}
+/*TOP CONTENT
+==================================*/
+#main-nav{
+width: 250px;
+float: left;
+display: inline-block;
+}
+/*SEARCH-NAV
+----------------------------------*/
+.nav_head{
+font-size: 110%;
+color: green;
+font-weight: bolder;
+
+}
+.search-nav, .download-nav, .community, .about{
+border: 1px solid #DCDCDC;
+border-radius: 5px;
+margin: 0px 10px 5px 0px;
+}
+.search-nav ul li, .download-nav ul li, .community ul li, .about ul li{
+padding: 0px 0px 2px 0px;
+margin-left: -25px;
+}
+.search-nav ul li a, .download-nav ul li a, .community ul li a{
+text-decoration: none;
+	color: black;
+}
+.about ul li a{
+color: green;
+font-weight: bolder;
+font-size: 100%;
+}
+.search-nav ul li a:hover, .download-nav ul li a:hover, .community ul li a:hover{
+color: #458B74;
+font-weight: bold;
+text-decoration: underline;
+}
+.
+.rollerimage{
+width: 630px;
+float: left;
+margin-left: 10px;
+}
+/*SIDE BAR
+==================================*/
+.sidebar{
+	width: 290px;
+	float: right;
+}
+
+.quote{
+line-height: 0.9em;
+border: 1px solid #DCDCDC;
+border-radius: 5px;
+padding: 5px;
+margin: 5px;
+ }
+ .quote ul li{
+ margin-left: -45px;
+ padding-bottom: 20px;
+ }
+
+/*PHILOSOPHY
+==================================*/
+.philosophy{
+width: 1180px;
+float: left;
+}
+.col1, .col2, .col3, .col4{
+width: 23%;
+float: left;
+padding-right: 5px;
+text-align: left;
+margin: 20px 10px 20px 5px;
+text-align: center;
+}
+.philosophy ul{
+/*color: #777;*/
+}
+.col2 ul li, .col3 ul li, .col4 ul li{
+list-style-type: disc;
+}
+.col1 h2, .col2 h2, .col3 h2, .col4 h2{
+margin: 15px;
+padding-bottom: 10px;
+border-bottom: 1px solid #DCDCDC;
+font-size: 1.2em;
+color: green;
+/*
+color: #458B74;*/
+}
+/*DASHBOARD
+==================================*/
+.social {
+width: 100%;
+}
+table.interactive{
+border: 1px solid #DCDCDC;
+border-radius: 5px;
+width: 100%
+}
+table.interactive td{
+text-align: center;
+}
+table.interactive td h3{
+color: green;
+
+}
+table.interactive td ul li{
+text-align: center;
+display: inline;
+padding: 40px;
+} 	
+/*TABLE
+===================================*/
+.newsupdates{
+margin-top: 10px;
+}
+.newsupdates h3{
+text-align: center;
+color: #458B74;
+border-bottom: 1px solid #DCDCDC;
+margin-right: 25px;
+padding-bottom: 20px;
+}
+.newsupdates table{
+margin-left: -40px;
+
+}
+.newsupdates table td.date {
+	color:  #828282;
+}
+.newsupdates table td {
+	border-bottom:1px solid #ccc;
+	background:#f4f6de;
+	padding: 5px;
+	}
+.newsupdates table td a{
+	text-decoration: none;
+	}
+.newsupdates table td a:hover{
+	text-decoration: underline;
+	color: #458B74;
+	
+}
+.newsupdates table tr.alt td, .downloads table tr.alt td{
+	background: #fff;
+}
+/*MORE
+==================================*/
+.more{
+	text-decoration:none; 
+	text-transform: capitalize; 
+	font-style: italic;	
+	font-size: 96%;	
+	color: black;}
+
+
+/*OTHER PAGES
+==================================*/
+#wrapper-search, #wrapper-search2, #comments{
+	width: 1180px;
+	margin: auto;
+	 max-width: 1180px;}
+	#wrapper-search{
+	margin-top: 140px;
+	border-top: 2px dotted ;	
+	}
+#wrapper-search2, #comments{
+	width: 800px;
+	margin-top: 160px;
+	line-height: 1.6em;
+	border-top: 2px dotted ;
+	}
+	#comments{
+	margin-top: 20px; 
+	margin-bottom: 20px;
+	padding: 15px;
+	border: 45px solid #DCDCDC;
+	border-radius: 5px;
+	line-height: 1.6em;
+	}
+
+	/*
+	===============================*/
+footer{
+text-align: center;
+margin: 30px;
+}
+footer a{
+padding: 10px;
+}
+/*CONTR-PAGE
+================================*/
+border: 15px solid white;
+/*
+/*DASHBOARD CHILD
+	---------------------------------
+.researchleaders, .grandchal, .researchstudents, .newsupdates{
+width: 32%;
+float: left;
+border: 1px solid #DCDCDC;
+border-radius: 5px;
+}
+.researchleaders h3, .grandchal h3, .researchstudents h3{
+text-align: center;
+color: #458B74
+}
+.researchleaders, .grandchal{
+margin-right: 10px;
+}
+/*Research leaders div
+-------------------------------------
+.researchleaders ul{
+	padding: 0px 5px 0px 5px;
+	-moz-box-border-radius: 5px;
+	-webkit-box-border-radius: 5px; 
+	list-style-type: none;
+	}
+.researchleaders ul li {
+	position: relative;
+	margin:0;
+	padding: 5px 55px 0px 0px;
+	border-bottom: 1px solid #DCDCDC;
+	border-top: 1px solid #DCDCDC;
+}	
+.researchleaders ul li h3{
+text-align: justify;
+}
+.researchleaders ul li a{
+	text-decoration: none;
+	color: #828282;
+	}
+.researchleaders ul li a:hover{
+	text-decoration: underline;
+	color: #458B74;
+	}
+.researchleaders ul li p{
+	color: #5D478B;
+	margin: 2px 0px 2px 0px;
+}
+.researchleaders ul li img{
+	position: absolute;
+	top: 20px;
+	right: 10px;
+	}
+GRAND CHAL
+----------------------------------
+.grandchal h3, .researchstudents h3 {
+border-bottom: 1px solid #DCDCDC;
+margin-right: 25px;
+padding-bottom: 20px;
+}
+.grandchal ul li {
+display: inline-block;
+margin-left: -15px;}
+.grandchal ul li.oe{
+margin-left: 45px;
+}
+.imgwrap{
+position: relative; 
+display: inline-block;
+}
+.imgDescription{
+position: absolute;
+top: 5px;
+left: 20px;  
+background: rgba(0, 03, 04, 0.72);
+color: #FCFCFC;  
+visibility: hidden;
+}
+
+/*RESEACH-STUDENTS
+----------------------------------
+.researchstudents ul li{
+display: inline-block;
+margin-left: : -5px;
+}
+.researchstudents{
+color: #458B74;
+}
+
+*/
