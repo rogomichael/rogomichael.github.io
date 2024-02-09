@@ -3,8 +3,9 @@
 body{
 font-family: calibri;
 	top: 20px;
-	margin: auto;
-	background:url('./images/editmitishamba1.png')no-repeat;
+	margin-left: 80px;
+	margin-right: 60px;
+	background:url('./images/heidelberg.jpg')no-repeat;
   }
   
 ul{
@@ -20,11 +21,6 @@ a:hover{
 text-decoration: underline;
 }
 
-/*CYCLER
-===================================*/
-#cycler {position: relative;}
-#cycler img{position:absolute; z-index:1; margin-left: auto; margin-right: auto;}
-#cycler img.active{z-index:3}
 
 /*CLEAR FLOATS
 ===================================*/
@@ -43,9 +39,10 @@ text-decoration: underline;
 /*WHOLE PAGE
 ==================================*/
 .main{
-width: 1180px;
+width: 960px;
 margin: auto;
 margin-top: 140px;
+margin-left: 120px;
 }
 /*TOPCONTENT
 ==================================*/
@@ -127,7 +124,7 @@ float: left;
 .col1, .col2, .col3, .col4{
 width: 23%;
 float: left;
-padding-right: 5px;
+padding-right: 2px;
 text-align: left;
 margin: 20px 10px 20px 5px;
 text-align: center;
@@ -248,94 +245,4 @@ margin: 30px;
 footer a{
 padding: 10px;
 }
-/*CONTR-PAGE
-================================*/
-border: 15px solid white;
-/*
-/*DASHBOARD CHILD
-	---------------------------------
-.researchleaders, .grandchal, .researchstudents, .newsupdates{
-width: 32%;
-float: left;
-border: 1px solid #DCDCDC;
-border-radius: 5px;
-}
-.researchleaders h3, .grandchal h3, .researchstudents h3{
-text-align: center;
-color: #458B74
-}
-.researchleaders, .grandchal{
-margin-right: 10px;
-}
-/*Research leaders div
--------------------------------------
-.researchleaders ul{
-	padding: 0px 5px 0px 5px;
-	-moz-box-border-radius: 5px;
-	-webkit-box-border-radius: 5px; 
-	list-style-type: none;
-	}
-.researchleaders ul li {
-	position: relative;
-	margin:0;
-	padding: 5px 55px 0px 0px;
-	border-bottom: 1px solid #DCDCDC;
-	border-top: 1px solid #DCDCDC;
-}	
-.researchleaders ul li h3{
-text-align: justify;
-}
-.researchleaders ul li a{
-	text-decoration: none;
-	color: #828282;
-	}
-.researchleaders ul li a:hover{
-	text-decoration: underline;
-	color: #458B74;
-	}
-.researchleaders ul li p{
-	color: #5D478B;
-	margin: 2px 0px 2px 0px;
-}
-.researchleaders ul li img{
-	position: absolute;
-	top: 20px;
-	right: 10px;
-	}
-GRAND CHAL
-----------------------------------
-.grandchal h3, .researchstudents h3 {
-border-bottom: 1px solid #DCDCDC;
-margin-right: 25px;
-padding-bottom: 20px;
-}
-.grandchal ul li {
-display: inline-block;
-margin-left: -15px;}
-.grandchal ul li.oe{
-margin-left: 45px;
-}
-.imgwrap{
-position: relative; 
-display: inline-block;
-}
-.imgDescription{
-position: absolute;
-top: 5px;
-left: 20px;  
-background: rgba(0, 03, 04, 0.72);
-color: #FCFCFC;  
-visibility: hidden;
-}
 
-/*RESEACH-STUDENTS
-----------------------------------
-.researchstudents ul li{
-display: inline-block;
-margin-left: : -5px;
-}
-.researchstudents{
-color: #458B74;
-}
-
-*/
