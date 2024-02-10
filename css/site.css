@@ -14,15 +14,14 @@ font-family: calibri;
 	background-size: 100% auto; /* Cover entire width, maintain aspect ratio */
 	margin-bottom: 50px;
   }
-.title-text a{
+.title-text{
 text-decoration: none;
-/*color: #fff;*/
+text-align: center;
 margin: auto;
-font-size: 30px;
+font: italic 1.2rem "Fira Sans", serif;
+font-size: 40px;
 }
-.title-text:hover {
-	background-color: #f0f0f0;
-  }
+
 
 ul{
 	list-style-type: none;
