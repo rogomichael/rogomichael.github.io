@@ -38,14 +38,16 @@ ul li{
 text-align: left;
 }
 a {
+color: green;
 text-decoration: none;
+}
+a:visited{
+color: #458B74;
 }
 a:hover{
 text-decoration: underline;
 }
-a:after{
-text-decoration: none;
-}
+
 
 
 /*CLEAR FLOATS
@@ -106,14 +108,12 @@ margin-left: -25px;
 text-decoration: none;
 	color: black;
 }
-.about ul li a{
+ ul li a{
 color: green;
 font-weight: bolder;
 font-size: 100%;
 }
-a:visited{
-	color: #458B74;
-}
+
  ul li a:hover, ul li a:hover, .community ul li a:hover{
 color: #458B74;
 font-weight: bold;
