@@ -5,6 +5,21 @@ font-family: calibri;
 	top: 20px;
 	margin: auto;
   }
+
+  .header {
+	/*background-color: #4CAF50; /* Green background color */
+	background-color: #990000; /*#ab4954;*/
+	padding: 1px; /* Padding for content inside the header */
+	text-align: center; /* Center text horizontally */
+	font: italic 1.2rem "Fira Sans", serif;
+	font-size: 10px;
+  }
+  .header p{
+	font: italic 1.2rem "Fira Sans", serif;
+	font-size: 30px;
+	color: #f4f6de;
+  }
+  
   
   .container {
 	width: 100vw; /* Set width to full viewport width */
@@ -49,7 +64,25 @@ text-decoration: underline;
 }
 
 
-
+.rounded-button {
+    background-color: #ab4954; /* Green background color */
+    border: none; /* Remove default button border */
+    color: white; /* Text color */
+    padding: 15px 32px; /* Padding for content inside the button */
+    text-align: center; /* Center text horizontally */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button behave like an inline element */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor style on hover */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); /* Shadow effect */
+  }
+  
+  /* Hover effect */
+  .rounded-button:hover {
+    background-color: #458B74; /* Darker green on hover */
+  }
+  
 /*CLEAR FLOATS
 ===================================*/
 .cf:before,
