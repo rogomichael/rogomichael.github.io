@@ -24,7 +24,7 @@ body{
 }
 
 /* Main layout */
-.main-cf {
+.nav-links {
     display: flex;
     flex-wrap: wrap;
     margin-top: 40px;
@@ -121,18 +121,31 @@ a {
 
 /* Media queries for responsiveness */
 @media screen and (max-width: 768px) {
-    .main-cf {
+    .nav-links {
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-wrap: wrap;
     }
+
     .col {
-        width: 100%;
+        flex: 0 0 75%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .clear{
+        clear: both;
     }
     .grid-container {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 10px;
+        gap: 5px;
         padding: 10px;
+        margin: 5px -1px;
+
+    }
+    .grid-container h3{
+        text-align: center;
     }
     .member-img{
         display: none;
