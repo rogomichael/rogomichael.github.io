@@ -89,7 +89,9 @@ a {
 
 .speakers-div {
     /* Styles for individual speaker div */
-
+    padding: 10px;
+    /* Add shadow effect */
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2); /* Adjust values as needed */
 }
 .member-img {
 	width: 120px;
@@ -128,7 +130,9 @@ a {
 
 .social {
     /* Styles for social section */
+    padding: 10px;
 }
+
 
 /* Media queries for responsiveness */
 @media screen and (max-width: 768px) {
@@ -161,6 +165,11 @@ a {
     .member-img{
         display: none;
     }
+    .Short-text{
+        padding: 10px;
+        /* Add shadow effect */
+        box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2); /* Adjust values as needed */
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1200px) {
@@ -182,6 +191,8 @@ a {
     }
     .Short-text{
         padding: 10px;
+        /* Add shadow effect */
+        box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2); /* Adjust values as needed */
     }
 
     .col {
