@@ -165,11 +165,7 @@ a {
     .member-img{
         display: none;
     }
-    .Short-text{
-        padding: 10px;
-        /* Add shadow effect */
-        box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2); /* Adjust values as needed */
-    }
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 1200px) {
@@ -189,11 +185,7 @@ a {
     .speakers-div h3 {
         text-align: center;
     }
-    .Short-text{
-        padding: 10px;
-        /* Add shadow effect */
-        box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2); /* Adjust values as needed */
-    }
+
 
     .col {
         width: 60%;
