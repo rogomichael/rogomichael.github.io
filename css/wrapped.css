@@ -1,0 +1,149 @@
+/* Default styles */
+body{
+    font-family: calibri;
+        top: 20px;
+        margin: auto;
+      }
+.header {
+	/*background-color: #4CAF50; /* Green background color */
+	background-color: #990000; /*#ab4954;*/
+	padding: 1px; /* Padding for content inside the header */
+	text-align: center; /* Center text horizontally */
+	font: italic 1.2rem "Fira Sans", serif;
+	font-size: 10px;
+	position: relative;
+  }
+  .header p{
+	font: italic 1.2rem "Fira Sans", serif;
+	font-size: 30px;
+	color: #f4f6de;
+  }
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+/* Main layout */
+.main-cf {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.col {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+.col h2{
+    margin: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #DCDCDC;
+    font-size: 1.2em;
+}
+a {
+    color: green;
+    text-decoration: none;
+    }
+    a:visited{
+    color: #458B74;
+    }
+    a:hover{
+    text-decoration: underline;
+    }
+    .rounded-button {
+        background-color: #ab4954; /* Green background color */
+        border: none; /* Remove default button border */
+        color: white; /* Text color */
+        padding: 15px 32px; /* Padding for content inside the button */
+        text-align: center; /* Center text horizontally */
+        text-decoration: none; /* Remove underline */
+        display: inline-block; /* Make the button behave like an inline element */
+        font-size: 16px; /* Font size */
+        cursor: pointer; /* Cursor style on hover */
+        border-radius: 20px; /* Rounded corners */
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); /* Shadow effect */
+      }
+      
+      /* Hover effect */
+      .rounded-button:hover {
+        background-color: #458B74; /* Darker green on hover */
+      }
+
+/* Speakers section */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    /*grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));*/
+    gap: 10px;
+}
+
+.speakers-div {
+    /* Styles for individual speaker div */
+
+}
+.member-img {
+	width: 120px;
+	height: 120px;
+	border-radius: 190px;
+	margin-right: 5%;
+}
+
+/* Dashboard section */
+.dashboard {
+    /* Styles for dashboard section */
+    .social {
+        width: 100%;
+        }
+        table.interactive{
+        border: 1px solid #DCDCDC;
+        border-radius: 5px;
+        width: 100%
+        }
+        table.interactive td{
+        text-align: center;
+        }
+        table.interactive td h3{
+        color: green;
+        
+        }
+        table.interactive td ul li{
+        text-align: center;
+        display: inline;
+        padding: 40px;
+        } 	
+}
+
+.social {
+    /* Styles for social section */
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .main-cf {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col {
+        width: 100%;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 10px;
+    }
+    .member-img{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .main-cf {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col {
+        width: 50%;
+    }
+}

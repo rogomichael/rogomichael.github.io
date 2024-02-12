@@ -5,7 +5,12 @@ font-family: calibri;
 	top: 20px;
 	margin: auto;
   }
-
+  .site-container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+/*RED BANNER
+===================================*/
   .header {
 	/*background-color: #4CAF50; /* Green background color */
 	background-color: #990000; /*#ab4954;*/
@@ -13,14 +18,76 @@ font-family: calibri;
 	text-align: center; /* Center text horizontally */
 	font: italic 1.2rem "Fira Sans", serif;
 	font-size: 10px;
+	position: relative;
   }
   .header p{
 	font: italic 1.2rem "Fira Sans", serif;
 	font-size: 30px;
 	color: #f4f6de;
   }
+  /*Red Banner Image*/
+  header::before,
+  .header::after {
+	content: '';
+	position: absolute;
+	top: 30px;
+	width: 20%; /* Adjust width of image container */
+	height: 50%;
+	background-size: contain; /* Adjust background size */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Prevent image from repeating */
+  }
   
+
+/* Left image */
+.header::before {
+  left: 0;
+  background-image: url('../images/iwr-logo_180.png'); /* URL to left image */
+}
+
+/* Right image */
+.header::after {
+  right: 0;
+  background-image: url('right-image.jpg'); /* URL to right image */
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .main-cf {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col {
+        width: 100%;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 10px;
+    }
+    .member-img{
+        display: none;
+    }
+	.header::before,
+  .header::after {
+    display: none; /* Hide images on smaller screens */
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .main-cf {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col {
+        width: 50%;
+    }
+}
+
   
+
+  /*===================================*/
+
   .container {
 	width: 100vw; /* Set width to full viewport width */
 	height: 100px; /* Set height to full viewport height */
@@ -100,43 +167,15 @@ text-decoration: underline;
 /*WHOLE PAGE
 ==================================*/
 .main-cf{
-width: 1180px;
+/*width: 1180px;
 margin: auto;
 margin-top: 40px;
-/*margin-left: 120px;*/
+margin-left: 120px;*/
+display: flex;
+flex-wrap: wrap;
+margin-top: 40px;
 }
-/*TOPCONTENT
-==================================*/
-#topcontent{
-width: 1180px;
-float: left;
-/*background: green;
-border: 2px solid red;*/
-}
-/*TOP CONTENT
-==================================*/
-#main-nav{
-width: 250px;
-float: left;
-display: inline-block;
-}
-/*SEARCH-NAV
-----------------------------------*/
-.nav_head{
-font-size: 110%;
-color: green;
-font-weight: bolder;
 
-}
-.search-nav, .download-nav, .community, .about{
-border: 1px solid #DCDCDC;
-border-radius: 5px;
-margin: 0px 10px 5px 0px;
-}
-.search-nav ul li, .download-nav ul li, .community ul li, .about ul li{
-padding: 0px 0px 2px 0px;
-margin-left: -25px;
-}
  ul li a, ul li a, .community ul li a{
 text-decoration: none;
 	color: black;
@@ -182,7 +221,6 @@ float: left;
 width: 23%;
 float: left;
 padding-right: 5px;
-text-align: left;
 margin: 20px 10px 20px 5px;
 text-align: center;
 }
