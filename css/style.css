@@ -5174,7 +5174,17 @@ RESPONSIVE STYLESHEET
 	.banner-caption .btn-wrap {
 		margin-top: 40px;
 	}
-
+	/*Welcome Text*/
+	.overview, .welcome{
+		margin-top: 0px;
+	}
+	.overview, p{
+		margin-bottom: 0px;
+	}
+	.overview, li{
+		list-style-position: inside;
+		padding-left: 20px;
+	}
 	.widget_raratheme_companion_stat_counter_widget .icon-holder {
 		font-size: 2.5em;
 	}
@@ -5232,7 +5242,17 @@ RESPONSIVE STYLESHEET
 		width: 100%;
 		max-width: 100%;
 	}
-
+	/*Welcome Text*/
+	.overview, .welcome{
+		margin-top: 0px;
+	}
+	.overview, p{
+		margin-bottom: 0px;
+	}
+	.overview, li{
+		list-style-position: inside;
+		padding-left: 20px;
+	}
 	/*============================
 	NEWSLETTER SECTION
 	============================*/
@@ -5306,7 +5326,18 @@ RESPONSIVE STYLESHEET
 	}
 
 	.portfolio-img-holder .portfolio-item {
-		width: 50%;
+		width: 60%;
+	}
+	/*Welcome Text*/
+	.overview, .welcome{
+		margin-top: 0px;
+	}
+	.overview, p{
+		margin-bottom: 0px;
+	}
+	.overview, li{
+		list-style-position: inside;
+		padding-left: 20px;
 	}
 
 	/*=========================
@@ -5635,13 +5666,13 @@ RESPONSIVE STYLESHEET
 	SPEAKERS SECTION
 	===========================*/
 	.speakers-section {
-		margin-top: 80px;
-		margin-top: 50px;
+		margin-top: 20px;
+		/*margin-top: 50px;*/
 	}
 
 	section[class*="-section"] .widget_rrtc_description_widget, 
 	.page-template-speaker .site-main .widget_rrtc_description_widget {
-		width: 47%;
+		width: 100%;
 	}
 
 	section[class*="-section"] .widget_rrtc_description_widget .description {
@@ -5712,117 +5743,7 @@ RESPONSIVE STYLESHEET
 		padding-right: 20px;
 	}
 
-	/*=========================
-	BLOG SECTION
-	=========================*/
-	.blog-section {
-		margin-top: 80px;
-		margin-bottom: 80px;
-		padding-top: 80px;
-	}
-
-	.blog-section .btn-wrap {
-		margin-top: 40px;
-	}
-
-	.blog-section .article-wrap {
-		grid-template-columns: repeat(2, 1fr);
-		grid-gap: 20px;
-	}
-
-	.blog-section .article-wrap article:last-child {
-		display: none;
-	}
-
-	/*==========================
-	CONTACT FORM SECTION
-	==========================*/
-	.contact-form-section .container {
-		padding-top: 80px;
-		flex-direction: column;
-		max-width: 800px;
-	}
-
-	.contact-form-section .container::after {
-		height: 80px;
-		bottom: -80px;
-	}
-
-	.content-wrap .contact-form {
-		width: 100%;
-		margin-right: 0;
-		margin-bottom: 50px;
-	}
-
-	.content-wrap .contact-info {
-		width: 100%;
-		padding: 30px;
-	}
-
-	section.contact-form-section .widget, .page-template-contact .site-main .widget {
-		width: calc(100% - 50px);
-		padding-right: 0;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	.page-template-contact .site-main .widget {
-		width: 100%;
-	}
-
-	.page-template-contact .site-main .widget:last-child {
-		margin-bottom: 0;
-	}
-
-	section.contact-form-section .widget_rtc_contact_social_links, .page-template-contact .site-main .widget_rtc_contact_social_links {
-		padding: 30px;
-	}
 	
-	/*==========================
-	MAP SECTION
-	==========================*/
-	section.contact-form-section + section.map-section .widget .widget-title {
-		margin-top: 160px;
-	}
-
-	section.map-section .widget .textwidget {
-		height: 500px;
-	}
-
-	section.map-section .widget .widget-title + .textwidget {
-		height: 400px;
-	}
-
-	/*============================
-	NEWSLETTER SECTION
-	============================*/
-	section[class*="-section"] .blossomthemes-email-newsletter-wrapper {
-		padding-top: 80px;
-		padding-bottom: 80px;
-	}
-
-	.blossomthemes-email-newsletter-wrapper .newsletter-wrap-inner {
-		flex-direction: column;
-		text-align: center;
-	}
-
-	.blossomthemes-email-newsletter-wrapper .text-holder {
-		padding-right: 0;
-		margin-bottom: 40px;
-		max-width: 500px;
-	}
-
-	.blossomthemes-email-newsletter-wrapper .text-holder h3 {
-		font-size: 2.2223em;
-	}
-
-	.blossomthemes-email-newsletter-wrapper form {
-		max-width: 670px;
-	}
-
-	.blossomthemes-email-newsletter-wrapper form label {
-		text-align: left;
-	}
 
 	/*=============================
 	SITE FOOTER SECTION
@@ -5905,6 +5826,17 @@ RESPONSIVE STYLESHEET
 	.site-banner.video-banner .item img {
 	    height: 100vh;
 	}
+	.overview, .welcome{
+		margin-top: 0px;
+	}
+	.overview, p{
+		margin-bottom: 0px;
+	}
+	.overview, li{
+		list-style-position: inside;
+		padding-left: 20px;
+	}
+	
 }
 
 @media screen and (max-width: 767px) {
@@ -5946,6 +5878,17 @@ RESPONSIVE STYLESHEET
 
 	header.page-header {
 		margin-bottom: 60px;
+	}
+
+	.overview, .welcome{
+		margin-top: 0px;
+	}
+	.overview, p{
+		margin-bottom: 0px;
+	}
+	.overview, li{
+		list-style-position: inside;
+		padding-left: 20px;
 	}
 
 	/*===========================
@@ -6034,7 +5977,7 @@ RESPONSIVE STYLESHEET
 	}
 
 	section.counter-section .widget:last-child {
-		margin-bottom: 60px;
+		margin-bottom: 20px;
 	}
 
 	.widget_raratheme_companion_stat_counter_widget .odometer.odometer-auto-theme, 
@@ -6042,27 +5985,7 @@ RESPONSIVE STYLESHEET
 		font-size: 2em;
 	}
 
-	/*============================
-	RECENT CONFERENCE SECTION
-	============================*/
-	section[class*="-section"] .widget_rrtc_icon_text_widget .rtc-itw-inner-holder, 
-	section[class*="-section"] .widget_rrtc_icon_text_widget:nth-child(2n) .rtc-itw-inner-holder {
-		flex-direction: column;
-	}
-
-	section[class*="-section"] .widget_rrtc_icon_text_widget .text-holder {
-		width: 100%;
-		padding-left: 0;
-	}
-
-	section[class*="-section"] .widget_rrtc_icon_text_widget:nth-child(2n) .text-holder {
-		padding-right: 0;
-	}
-
-	section[class*="-section"] .widget_rrtc_icon_text_widget .icon-holder {
-		width: 100%;
-		margin-bottom: 30px;
-	}
+	
 
 	/*==========================
 	SPEAKERS SECTION
@@ -6092,44 +6015,6 @@ RESPONSIVE STYLESHEET
 	}
 
 	/*=============================
-	CTATIMER SECTION
-	=============================*/
-	.ctaTimer-countdown .countdown-wrap {
-		width: 48%;
-		margin-right: 3%;
-	}
-
-	.ctaTimer-countdown .countdown-wrap:nth-child(2n) {
-		margin-right: 0;
-	}
-
-	/*=============================
-	CTA SECTION
-	=============================*/
-	.cta-section .container {
-		flex-direction: column;
-	}
-
-	.cta-section .widget {
-		width: 100%;
-		margin-right: 0;
-	}
-
-	section.cta-section .widget:nth-last-of-type(2) {
-		margin-bottom: 60px;
-	}
-
-	.btn-cta {
-		display: block;
-		width: 100%;
-	}
-
-	.btn-cta + .btn-cta {
-		margin-left: 0;
-		margin-top: 10px;
-	}
-
-	/*=============================
 	FAQ SECTION
 	=============================*/
 	.widget_raratheme_companion_faqs_widget ul.accordion li {
@@ -6141,68 +6026,7 @@ RESPONSIVE STYLESHEET
 		line-height: 1.4;
 	}
 
-	/*========================
-	BLOG SECTION
-	========================*/
-	.blog-section .article-wrap {
-		grid-template-columns: repeat(1, 1fr);
-	}
-
-	.blog-section .article-wrap article:last-child {
-		display: block;
-	}
-
-	.blog-section article .entry-header {
-		padding: 20px;
-	}
-
-	.portfolio-img-holder, 
-	.related-portfolio .portfolio-img-holder {
-		margin-left: 0;
-		margin-right: 0;
-	}
-
-	.portfolio-img-holder .portfolio-item {
-		float: none;
-		width: 100%;
-		padding-left: 0;
-		padding-right: 0;
-	}
-
-	/*==========================
-	CONTACT FORM SECTION
-	==========================*/
-	.contact-form-section .container {
-		max-width: 540px;
-	}
-
-	section.contact-form-section .widget {
-		width: calc(100% - 30px);
-	}
-
-	/*============================
-	NEWSLETTER SECTION
-	============================*/
-	.blossomthemes-email-newsletter-wrapper form {
-		flex-direction: column;
-		width: 100%;
-	}
-
-	.blossomthemes-email-newsletter-wrapper form input[name="subscribe-fname"], 
-	.blossomthemes-email-newsletter-wrapper form input[name="subscribe-email"] {
-		width: 100%;
-		border-right: 2px solid rgba(255,255,255,0.5);
-		margin-bottom: 10px;
-		border-top-right-radius: 5px;
-		border-bottom-right-radius: 5px;
-	}
-
-	.blossomthemes-email-newsletter-wrapper form input[name="subscribe-fname"] + input[name="subscribe-email"], 
-	.blossomthemes-email-newsletter-wrapper form input[type="submit"] {
-		width: 100%;
-		border-top-left-radius: 5px;
-		border-bottom-left-radius: 5px;
-	}
+	
 
 	/*========================
 	LIST VIEW
