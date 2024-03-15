@@ -2272,8 +2272,8 @@ a.btn-transparent svg,
 ABOUT THE SUMMER SCHOOL SECTION
 =============================*/
 section.about-section {
-	margin-top: 30px;
-	margin-bottom: 10px;
+	margin-top: 5px;
+	margin-bottom: 1px;
 }
 section.about-section .widget-title {
 	font-size: 2em;
@@ -2285,6 +2285,9 @@ section[class*="-section"] .widget:last-child {
 .overview{
 	width: 95%;
 	text-align:left;
+}
+.overview, li{
+list-style-position: inside;	text-indent: 20px;
 }
 
 /*==============================
