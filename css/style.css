@@ -5165,7 +5165,7 @@ RESPONSIVE STYLESHEET
 	}
 
 	.banner-caption .btn-wrap {
-		margin-top: 40px;
+		margin-top: 10px;
 	}
 
 	.widget_raratheme_companion_stat_counter_widget .icon-holder {
@@ -5261,8 +5261,8 @@ RESPONSIVE STYLESHEET
 	section.testimonial-section, 
 	section.cta-section, 
 	section.gallery-section {
-		margin-top: 80px;
-		margin-bottom: 80px;
+		margin-top: 10px;
+		margin-bottom: 10px;
 	}
 
 	.widget-title, 
@@ -5586,8 +5586,8 @@ RESPONSIVE STYLESHEET
 	COUNTER SECTION
 	=========================*/
 	section.counter-section {
-		padding-top: 80px;
-		padding-bottom: 100px;
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
 
 	section.recent-the-conference-section::before {
@@ -5628,7 +5628,7 @@ RESPONSIVE STYLESHEET
 	SPEAKERS SECTION
 	===========================*/
 	.speakers-section {
-		margin-top: 80px;
+		margin-top: 10px;
 		margin-top: 50px;
 	}
 
