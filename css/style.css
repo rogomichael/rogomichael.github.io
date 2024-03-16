@@ -59,15 +59,21 @@ body {
 	margin: 0;
 }
 .program_table{
-margin: auto;
-width: 75%;
-padding: 0px;
+	margin: auto;
+	width: 75%;
+}
 
+.program_table, .td-center{
+	text-align: center;
 }
-.program_table, th, td{
-border-collapse: collapse;
-padding: 0px;
+.td-center-lunch{
+	text-align: center;
+	border: none;
 }
+	.program_table,tr:nth-child(2n+3) {
+		background-color: #f5f5f5; /*#848482;*/
+	}
+
 article,
 aside,
 details,
@@ -443,12 +449,13 @@ table tr th {
 }
 table tr td {
 	color: #353535;
+	padding-left: 5px;
 }
 table tbody tr:nth-child(odd) {
-	background: rgba(0,0,0,0.035);
+	background: #d3d3d3;
 }
 .site-footer table tbody tr:nth-child(odd) {
-	background: rgba(255,255,255,0.05);
+	/*background: rgba(255,255,255,0.05);*/
 }
 
 /*--------------------------------------------------------------
