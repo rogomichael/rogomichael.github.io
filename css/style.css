@@ -90,6 +90,31 @@ body {
 	height: 40px;
 	border-radius: 50%;
 }
+
+/*External button next to apply
+.external-link {
+	display: inline-block;
+	padding: 10px 50px;
+	background-color: #007bff;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.external-link .external-icon {
+	margin-left: 5px;
+}*/
+a.btn-filled .external-icon{
+	margin-left: 5px;
+}
+a.custom-link .external-icon{
+	margin-left: 5px;
+
+}
+.fadeInRight .external-icon {
+	margin-left: 5px;
+}
+
 article,
 aside,
 details,
